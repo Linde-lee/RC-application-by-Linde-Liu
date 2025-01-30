@@ -25,7 +25,7 @@ def calculator ():
     answer_1 = operations[picked_operation](n1= n1_input, n2=n2_input)
     print(f"{n1_input} {picked_operation} {n2_input} = {answer_1}")
 
-    second_question = input("if you want to continue working with the previous result type 'y'. If you want to restart type 'n': ")
+    second_question = input("If you want to continue working with the previous result type 'y'. If you want to restart type 'n': ")
     if second_question == "y":
         picked_operation_two = input("Pick an operation (+, -, *. /): ")
         n2_input_second_round = float(input("What is your next number? "))
