@@ -32,8 +32,5 @@ def calculator ():
         answer_2 = operations[picked_operation_two](n1= answer_1, n2=n2_input_second_round)
         print(f"{answer_1} {picked_operation_two} {n2_input_second_round} = {answer_2}")
     else:
-        #iwie restart the loop
-        #print("again:)")
-        calculator() #using recursion
-
+        calculator() 
 calculator()
