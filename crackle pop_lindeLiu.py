@@ -7,5 +7,3 @@ for i in range(1,101):
         print("Pop")
     else:
         print(i)
-
-#first i checked only print(i). then only for crackle, realised that I did not due with remainder ==0 and fixed that. 
